@@ -186,8 +186,113 @@
     transition: 0.5s;
 }
 
+/* FOOTER */
+footer {
+    background-color: var(--color1-v1);
+}
+.logo-footer span {
+    transition: all 500ms ease;
+    color: var(--neutro3);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 700;
+}
+.contact {
+    list-style-type: none;
+}
+.contact li {
+    padding: 2px 0px;
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 500;
+}
+.title-social-media {
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+}
+.social-media-name {
+    list-style-type: none;
+}
+.social-media-name li {
+    padding-top: 9px;
+}
+.social-media-name li a {
+    text-decoration: none;
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.social-media-name i {
+    padding-right: 10px;
+}
+.links-title {
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+}
+.links {
+    list-style-type: none;
+}
+.links li {
+    padding-top: 2px;
+}
+.links li a {
+    transition: all 500ms ease;
+    text-decoration: none;
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-name hr {
+    margin: 5px 0px;
+    color: var(--neutro3);
+}
 
-
+/* BOTON FLOTANTE */
+.button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.button a {
+    margin-left: 10px ;
+    height: 55px;
+    width: 55px;
+    border-radius: 120px;
+    background-color: var(--color2-v3);
+    border: 3px solid var(--neutro2);
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+}
+.button img {
+    height: 30px;
+    width: 30px;
+}
+.button p {
+    margin: 0px;
+    width: 200px;
+    height: 40px;
+    background-color: var(--color2-v3);
+    color: #000;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid var(--neutro2);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+}
 
 
 
@@ -197,11 +302,11 @@
 /* Phone */
 @media screen and (max-width: 768px){
     .logo span {
-        font-size: 26px;
+        font-size: 27px;
     }
     .logo img {
-        width: 58px;
-        height: 58px;
+        width: 59px;
+        height: 59px;
     }
     .mobile-links {
         padding-top: 12px;
@@ -258,9 +363,27 @@
         display: none;
     }
     .category-images img {
-        padding: 20px;
+        padding: 5px 13px 13px 13px;
+    }
+    .logo-footer span {
+        font-size: 20px;
+    }
+    .logo-footer img {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-icons a {
+        color: var(--neutro3);
+        padding: 0px 5px;
+    }
+    .footer-name img {
+        height: 14px;
     }
 }
+
+
+
+
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -325,4 +448,44 @@
     .category-images img {
         padding: 20px;
     }
+    .logo-footer span {
+        font-size: 25px;
+    }
+    .logo-footer img {
+        width: 60px;
+        height: 60px;
+    }
+    .contact li {
+        font-size: 14px;
+    }
+    .contact {
+        padding-left: 35px;
+    }
+    .title-social-media {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    .social-media-name li a {
+        font-size: 14px;
+    }
+    .links-title {
+        font-size: 16px;
+    }
+    .links li a {
+        font-size: 14px;
+    }
+    .footer-name img {
+        height: 16px;
+    }
+    
+    .button img {
+        height: 22px;
+        width: 22px;
+        padding-margin: 10px;
+    }
+    .button a {
+        height: 45px;
+        width: 45px;
+    }
+    
 }
