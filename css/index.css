@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+:root {
+    --color1-v1: #9D7E79;
+    --color1-v2: #C6A9A4;
+    --color1-v3: #DEC3BF;
+    --color2-v1: #5B756C;
+    --color2-v2: #889C95;
+    --color2-v3: #C1CECA;
+    --color3-v1: #9A947C;
+    --color3-v2: #AFAB99;
+    --color3-v3: #D3CEBF;
+    --neutro1: #000000;
+    --neutro2: #6D6D6D;
+    --neutro3: #FFFFFF;
+}
+
+/* HEADER */
+.part-1 li a {
+    color: var(--neutro1);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.part-2 li a {
+    color: var(--neutro1);
+    font-family: Quicksand;
+    font-size: 19px;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+
+/*LOGO */
+.logo span {
+    color: var(--color2-v1);
+    font-family: Merriweather;
+    font-size: 37px;
+    font-weight: bold;
+}
+.logo img {
+    width: 84px;
+    height: 84px;
+}
+
+/* SEARCH */
+.input-box {
+    position: relative;
+    height: 46px;
+    width: 100%;
+}
+.input-box i {
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    font-size: 14px;
+    color: var(--neutro2);
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--neutro2);
+    border-radius: 8px;
+    padding-left: 40px;
+}
+.input-box ::placeholder {
+    color: var(--neutro2);
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+}
+
+/* LOGIN */
+.login-desktop i {
+    color: var(--color2-v1);
+    font-size: 25px;
+    
+}
+.login-desktop a {
+    border-radius: 10px;
+    border: 1px solid var(--color2-v1);
+    background: var(--color3-v3);
+    color: var(--neutro2);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 500ms ease;
+    padding: 5px 40px;
+}
+
+/* NAV */
+.banner-nav {
+    background-color: var(--color1-v1);
+}
+.nav-items a {
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+.nav-icons a {
+    font-size: 22px;
+    color: var(--neutro3);
+}
+
+/* PROMOTIONS TITLE */
+.title-promotion span {
+    color: var(--color2-v1);
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 500ms ease;
+}
+.title-promotion .line {
+    margin-top: 38px;
+    margin-left: 10px;
+    height: 0.5px;
+    width: 100%;
+    background-color: var(--neutro2);
+    transition: all 500ms ease;
+}
+
+/* CARDS - 1 */
+.cards img {
+    transition: 0.5s;
+}
+.promotion-cards a {
+    transition: all 500ms ease;
+    width: 100%;
+    height: 36px;
+    background: var(--color2-v3);
+    border: none;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+}
+.promotion-cards h5 {
+    color: var(--neutro1);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+}
+.promotion-cards p {
+    color: var(--color3-v1);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 600;
+}
+.promotion-cards p span {
+    color: var(--neutro2);
+    text-decoration-line: line-through;
+}
+.promotion-cards .card-oferta {
+    width: 112px;
+    padding: 5px;
+    color: var(--neutro3);
+    border-radius: 20px;
+    background: var(--color1-v2);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.cards-oferta h5 {
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* Phone */
+@media screen and (max-width: 768px){
+    .logo span {
+        font-size: 26px;
+    }
+    .logo img {
+        width: 58px;
+        height: 58px;
+    }
+    .mobile-links {
+        padding-top: 12px;
+    }
+    .mobile-links a {
+        color: var(--color2-v1);
+        font-size: 18px;
+    }
+    .nav-icons a {
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .nav-items a {
+        font-size: 12px;
+    }
+    .title-promotion span {
+        font-size: 21px;
+        padding: 10px 0px;
+    }
+    .title-promotion .line {
+        margin-top: 25px;
+        height: 0.5px;
+    }
+    .card-3 {
+        display: none;
+    }
+    .card-4 {
+        display: none;
+    }
+    .promotion-cards button {
+        font-size: 10px;
+        height: 24px;
+        transition: all 500ms ease;
+        width: 100%;
+        background: var(--color2-v3);
+        border: none;
+        border-radius: 5px;
+        color: #FFF;
+        font-family: Quicksand;
+        font-weight: 600;
+        text-decoration-line: underline;
+        margin-bottom: 10px;
+    }
+    .promotion-cards img {
+        padding: 20px 20px 0px;
+    }
+    .promotion-cards h5 {
+        font-size: 11px;
+    }
+    .promotion-cards p {
+        font-size: 10px;
+    }
+    .promotion-cards .card-oferta {
+        font-size: 11px;
+        width: 70px;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo span {
+        font-size: 30px;
+    }
+    .logo img {
+        width: 66px;
+        height: 66px;
+    }
+    .tablet-part a {
+        color: var(--color2-v1);
+        font-size: 20px;
+    }
+    .nav-icons a {
+        font-size: 18px;
+        padding: 3px 10px;
+    }
+    .nav-title {
+        color: var(--neutro3);
+        font-family: Quicksand;
+        font-weight: 500;
+        font-size: 15px;
+        padding-left: 50px;
+    }
+    .nav-items a {
+        font-size: 14px;
+    }
+    .title-promotion span {
+        font-size: 26px;
+        padding: 10px 0px 10px 5px;
+    }
+    .title-promotion .line {
+        margin-top: 28px;
+        height: 0.5px;
+    }
+    .card-4 {
+        display: none;
+    }
+    .promotion-cards a {
+        font-size: 13px;
+        height: 29px;
+    }
+    .promotion-cards h5 {
+        font-size: 14px;
+    }
+    .promotion-cards p {
+        font-size: 12px;
+    }
+    .promotion-cards .card-oferta {
+        font-size: 15px;
+        width: 90px;
+    }
+}
