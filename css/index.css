@@ -393,14 +393,14 @@ footer {
         height: 14px;
     }
     .button img {
-        height: 21px;
-        width: 21px;
+        height: 22px;
+        width: 22px;
     }
     .button .button-img {
         padding: 4px 6px 6px 6px;
     }
     .button .button-message {
-        font-size: 10px;
+        font-size: 11px;
         padding: 4px 10px;
     }
 }
