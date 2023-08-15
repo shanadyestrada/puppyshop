@@ -18,7 +18,7 @@
     --neutro3: #FFFFFF;
 }
 
-/* HEADER */
+/* HEADER | PART 1 */
 .part-1 li a {
     color: var(--neutro1);
     font-family: Quicksand;
@@ -34,12 +34,14 @@
     transition: all 500ms ease;
 }
 
+/* HEADER | PART 2 */
 /*LOGO */
 .logo span {
     color: var(--color2-v1);
     font-family: Merriweather;
     font-size: 37px;
     font-weight: bold;
+    transition: all 500ms ease;
 }
 .logo img {
     width: 84px;
@@ -65,6 +67,7 @@
     border: 1px solid var(--neutro2);
     border-radius: 8px;
     padding-left: 40px;
+    transition: all 500ms ease;
 }
 .input-box ::placeholder {
     color: var(--neutro2);
@@ -88,8 +91,8 @@
     font-family: Quicksand;
     font-size: 16px;
     font-weight: 600;
-    transition: all 500ms ease;
     padding: 5px 40px;
+    transition: all 500ms ease;
 }
 
 /* NAV */
@@ -106,6 +109,7 @@
 .nav-icons a {
     font-size: 22px;
     color: var(--neutro3);
+    transition: all 500ms ease;
 }
 
 /* PROMOTIONS TITLE */
@@ -126,7 +130,7 @@
     transition: all 500ms ease;
 }
 
-/* CARDS - 1 */
+/* CARDS */
 .cards img {
     transition: 0.5s;
 }
@@ -322,6 +326,54 @@ footer {
 }
 
 
+/* ANIMATION */
+.part-1 a:hover {
+    color: var(--color2-v1);
+}
+.part-2 a:hover {
+    color: var(--color2-v1);
+}
+.logo span:hover {
+    color: var(--color2-v2);
+}
+.login-desktop button:hover {
+    background-color: var(--color3-v3);
+    color: var(--color2-v1);
+    font-weight: bold;
+    border: none;
+}
+.nav-items a:hover {
+    color: var(--color1-v3);
+}
+.nav-icons a:hover {
+    color: var(--color1-v3);
+}
+.input-box input:hover {
+    background-color: #e5e5e5;
+}
+.cards img:hover {
+    transform:scale(1.1);
+}
+.cards button:hover {
+    background-color: var(--color2-v3);
+    color: var(--color2-v2);
+}
+.category-images img:hover {
+    filter: opacity(.6);
+    transform:scale(1.1);
+}
+.logo-footer span:hover {
+    color: var(--color1-v3);
+}
+.social-media-name a:hover {
+    color: var(--color1-v3);
+}
+.links a:hover {
+    color: var(--color1-v3); 
+}
+.button button:hover {
+    background-color: var(--color3-v2);
+}
 
 
 /* Phone */
@@ -381,7 +433,6 @@ footer {
         font-size: 11px;
         width: 70px;
     }
-    /* PUBLICITY */
     .banner {
         background-image: url(../images/publicidad-4-responsive.png);
         height: 150px;
@@ -435,10 +486,6 @@ footer {
         padding: 4px 10px;
     }
 }
-
-
-
-
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
