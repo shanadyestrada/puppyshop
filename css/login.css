@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+:root {
+    --color1-v1: #9D7E79;
+    --color1-v2: #C6A9A4;
+    --color1-v3: #DEC3BF;
+    --color2-v1: #5B756C;
+    --color2-v2: #889C95;
+    --color2-v3: #C1CECA;
+    --color3-v1: #9A947C;
+    --color3-v2: #AFAB99;
+    --color3-v3: #D3CEBF;
+    --neutro1: #000000;
+    --neutro2: #6D6D6D;
+    --neutro3: #FFFFFF;
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner {
+    background-color: var(--color1-v1);
+}
+.logo img {
+    height: 55px;
+    width: 55px;
+}
+.logo span {
+    color: var(--neutro3);
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+.icons {
+    padding: 0px 80px;
+}
+.icons a {
+    padding: 0px 10px;
+    font-size: 25px;
+    color: var(--neutro3);
+    transition: all 500ms ease;
+}
+
+.text-intro h1 {
+    padding: 50px 0 0 0;
+    color: var(--color1-v1);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 700;
+}
+.text-intro img {
+    width: 290px;
+    height: 410px;
+}
+
+/* FORM LOGIN */
+.form-registry {
+    margin: 50px 70px;
+    padding: 60px 70px;
+    background-color: var(--color2-v3);
+    border-radius: 15px;
+}
+.form-registry h2 {
+    color: var(--color2-v1);
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+}
+.form-registry img {
+    height: 24px;
+    width: 24px;
+    margin: 0 10px 5px 0;
+}
+.form-registry input {
+    padding: 2px 7px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    border: none;
+    transition: all 500ms ease;
+}
+.form-registry label {
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: var(--neutro2);
+    font-family: Quicksand;
+    font-weight: 600;
+}
+.form-registry span {
+    color: var(--neutro1);
+}
+.form-registry button {
+    padding: 5px 18px;
+    border-radius: 5px;
+    border: 1px solid var(--color3-v1);
+    background: var(--color3-v2);
+    color: #000;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+.form-registry .message {
+    font-family: Quicksand;
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+/* STYLE */
+.banner span:hover {
+    color: var(--color1-v3);
+}
+.banner a:hover {
+    color: var(--color1-v3);
+}
+.form-registry input:hover {
+    background-color: var(--color3-v3);
+    border: none;
+}
+.form-registry button:hover {
+    border: none;
+    background-color: var(--color3-v2);
+    color: var(--color2-v1); 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo img {
+        height: 40px;
+        width: 40px;
+    }
+    .logo span {
+        font-size: 26px;
+        padding: 7px;
+    }
+    .icons a {
+        padding: 12px 10px 0;
+        font-size: 18px;
+    }
+    .form-registry h2 {
+        font-size: 20px;
+    }
+    .form-registry img {
+        height: 20px;
+        width: 20px;
+        margin: 0 8px 5px 0;
+    }
+    .form-registry {
+        margin: 50px 60px;
+        padding: 40px 50px;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 767.98px) {
+    .logo img {
+        height: 35px;
+        width: 35px;
+    }
+    .logo span {
+        font-size: 22px;
+        padding: 7px;
+    }
+    .icons {
+        padding: 0;
+    }
+    .icons a {
+        padding: 12px 10px 0;
+        font-size: 14px;
+    }
+    .form-registry img {
+        height: 20px;
+        width: 20px;
+        margin: 0 8px 5px 0;
+    }
+    .text-intro h1 {
+        font-size: 23px;
+    }
+    .text-intro img{
+        width: 180px;
+        height: 230px;
+    }
+    .form-registry {
+        margin: 40px 30px;
+        padding: 40px 30px;
+    }
+    .form-registry h2 {
+        font-size: 15px;
+    }
+    .form-registry img {
+        height: 16px;
+        width: 16px;
+        margin: 0 8px 5px 0;
+    }
+    .form-registry label {
+        margin: 0px;
+        font-size: 11px;
+    }
+    .form-registry input {
+        padding: 1px 5px;
+        font-size: 11px;
+    }
+    .form-registry .message {
+        font-size: 10px;
+    }
+    .form-registry button {
+        font-size: 10px;
+    }
+}
