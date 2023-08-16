@@ -108,18 +108,87 @@ body {
     margin-top: 1px;
     font-size: 14px;
 }
-.links li {
+.links-login li {
     margin: auto;
     list-style-type: none;
     text-align: center;
 }
-.links a {
+.links-login a {
     color: #6D6D6D;
     font-family: Quicksand;
     font-size: 15px;
     font-weight: 600;
     transition: all 500ms ease;
 }
+/* FOOTER */
+footer {
+    background-color: var(--color1-v1);
+}
+.logo-footer span {
+    transition: all 500ms ease;
+    color: var(--neutro3);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 700;
+}
+.contact {
+    list-style-type: none;
+}
+.contact li {
+    padding: 2px 0px;
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 500;
+}
+.title-social-media {
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+}
+.social-media-name {
+    list-style-type: none;
+}
+.social-media-name li {
+    padding-top: 9px;
+}
+.social-media-name li a {
+    text-decoration: none;
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.social-media-name i {
+    padding-right: 10px;
+}
+.links-title {
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+}
+.links {
+    list-style-type: none;
+}
+.links li {
+    padding-top: 2px;
+}
+.links li a {
+    transition: all 500ms ease;
+    text-decoration: none;
+    color: var(--neutro3);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-name hr {
+    margin: 5px 0px;
+    color: var(--neutro3);
+}
+
 
 /* STYLE */
 .banner span:hover {
@@ -139,6 +208,15 @@ body {
 }
 .links a:hover {
     color: var(--color1-v1);
+}
+.logo-footer span:hover {
+    color: var(--color1-v3);
+}
+.social-media-name a:hover {
+    color: var(--color1-v3);
+}
+.links a:hover {
+    color: var(--color1-v3); 
 }
 
 
@@ -179,6 +257,35 @@ body {
     }
     .links a {
         font-size: 13px;
+    }
+    .logo-footer span {
+        font-size: 25px;
+    }
+    .logo-footer img {
+        width: 60px;
+        height: 60px;
+    }
+    .contact li {
+        font-size: 14px;
+    }
+    .contact {
+        padding-left: 35px;
+    }
+    .title-social-media {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    .social-media-name li a {
+        font-size: 14px;
+    }
+    .links-title {
+        font-size: 16px;
+    }
+    .links li a {
+        font-size: 14px;
+    }
+    .footer-name img {
+        height: 16px;
     }
 }
 
@@ -245,5 +352,19 @@ body {
     }
     .links a {
         font-size: 10px;
+    }
+    .logo-footer span {
+        font-size: 20px;
+    }
+    .logo-footer img {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-icons a {
+        color: var(--neutro3);
+        padding: 0px 5px;
+    }
+    .footer-name img {
+        height: 14px;
     }
 }
