@@ -49,37 +49,37 @@ body {
 }
 
 .text-intro h1 {
-    padding: 50px 0 0 0;
-    color: var(--color1-v1);
+    padding: 70px 0 0 0;
+    color: var(--color2-v1);
     font-family: Merriweather;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 700;
 }
 .text-intro img {
-    width: 290px;
+    width: 340px;
     height: 410px;
 }
 
 /* FORM LOGIN */
 .form-registry {
     margin: 50px 70px;
-    padding: 60px 70px;
-    background-color: var(--color2-v3);
+    padding: 90px 80px;
+    background-color: var(--color1-v3);
     border-radius: 15px;
 }
 .form-registry h2 {
-    color: var(--color2-v1);
+    color: var(--color1-v1);
     font-family: Quicksand;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
 }
 .form-registry img {
-    height: 24px;
-    width: 24px;
+    height: 25px;
+    width: 25px;
     margin: 0 10px 5px 0;
 }
 .form-registry input {
-    padding: 2px 7px;
+    padding: 4px 7px;
     border-radius: 5px;
     background: #D9D9D9;
     border: none;
@@ -92,24 +92,33 @@ body {
     font-family: Quicksand;
     font-weight: 600;
 }
-.form-registry span {
-    color: var(--neutro1);
-}
 .form-registry button {
-    padding: 5px 18px;
+    padding: 5px 30px;
     border-radius: 5px;
     border: 1px solid var(--color3-v1);
     background: var(--color3-v2);
     color: #000;
     font-family: Quicksand;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     transition: all 500ms ease;
 }
 .form-registry .message {
     font-family: Quicksand;
     margin-top: 1px;
-    font-size: 12px;
+    font-size: 14px;
+}
+.links li {
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+}
+.links a {
+    color: #6D6D6D;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 500ms ease;
 }
 
 /* STYLE */
@@ -128,6 +137,10 @@ body {
     background-color: var(--color3-v2);
     color: var(--color2-v1); 
 }
+.links a:hover {
+    color: var(--color1-v1);
+}
+
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .logo img {
@@ -142,6 +155,16 @@ body {
         padding: 12px 10px 0;
         font-size: 18px;
     }
+    .text-intro {
+        padding: 20px 0 0 0;
+    }
+    .text-intro h1 {
+        font-size: 70px;
+    }
+    .text-intro img {
+        width: 260px;
+        height: 330px;
+    }
     .form-registry h2 {
         font-size: 20px;
     }
@@ -151,8 +174,11 @@ body {
         margin: 0 8px 5px 0;
     }
     .form-registry {
-        margin: 50px 60px;
-        padding: 40px 50px;
+        margin: 60px 60px;
+        padding: 80px 90px;
+    }
+    .links a {
+        font-size: 13px;
     }
 }
 
@@ -178,16 +204,19 @@ body {
         width: 20px;
         margin: 0 8px 5px 0;
     }
+    .text-intro {
+        padding: 20px 0 0 0;
+    }
     .text-intro h1 {
-        font-size: 23px;
+        font-size: 45px;
     }
     .text-intro img{
         width: 180px;
-        height: 230px;
+        height: 210px;
     }
     .form-registry {
         margin: 40px 30px;
-        padding: 40px 30px;
+        padding: 60px 30px;
     }
     .form-registry h2 {
         font-size: 15px;
@@ -202,13 +231,19 @@ body {
         font-size: 11px;
     }
     .form-registry input {
-        padding: 1px 5px;
+        padding: 2px 5px;
         font-size: 11px;
     }
     .form-registry .message {
         font-size: 10px;
     }
     .form-registry button {
+        font-size: 10px;
+    }
+    .form-registry span {
+        padding: 1px 5px;
+    }
+    .links a {
         font-size: 10px;
     }
 }

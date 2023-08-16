@@ -94,49 +94,21 @@
 			<div class="col-12 col-lg-6 p-2">
 				<!-- DESKTOP -->
 				<div class="text-intro text-center d-none d-lg-block">
-					<h1>¡Bienvenido a <br>nuestra comunidad <br>peluda!</h1>
-					<img src="./images/dog-2.png" alt="">
+					<h1>¡Wouf wouf!</h1>
+					<img src="./images/dog-1.png" alt="">
 				</div>
 				<!-- RESPONSIVE -->
-				<div class="text-intro d-flex justify-content-center align-items-center d-block d-lg-none">
-					<h1 class="text-center">¡Bienvenido a <br>nuestra comunidad <br>peluda!</h1>
-					<img src="./images/dog-2.png" alt="">
+				<div class="text-intro d-lg-none d-block d-flex align-items-center justify-content-center">
+					<img src="./images/dog-1.png" alt="">
+					<h1>¡Wouf <br> wouf!</h1>
 				</div>
 			</div>
 			<div class="col-12 col-lg-6">
 				<div class="form-registry">
-					<h2><img src="./images/icon-dog-2.png" alt="">COMIENZA A REGISTRARTE:</h2>
+					<h2 class="pb-lg-3"><img src="./images/icon-dog-1.png" alt="">INICIE SESIÓN:</h2>
 					<form class="row g-3 needs-validation" novalidate>
-						<div class="col-md-6">
-							<label for="validationCustom01" class="form-label">Nombre</label>
-							<input type="text" class="form-control" id="validationCustom01" required>
-							<div class="invalid-feedback message">
-								Campo obligatorio.
-							</div>
-						</div>
-						<div class="col-md-6">
-							<label for="validationCustom03" class="form-label">Apellidos</label>
-							<input type="text" class="form-control" id="validationCustom03" required>
-							<div class="invalid-feedback message">
-								Campo obligatorio.
-							</div>
-						</div>
-						<div class="col-md-6">
-							<label for="validationCustom02" class="form-label">Fecha de nacimiento</label>
-							<input type="text" class="form-control" id="validationCustom02" required>
-							<div class="invalid-feedback message">
-								Campo obligatorio.
-							</div>
-						</div>
-						<div class="col-md-6">
-							<label for="validationCustom03" class="form-label">Teléfono</label>
-							<input type="text" class="form-control" id="validationCustom03" required>
-							<div class="invalid-feedback message">
-								Campo obligatorio.
-							</div>
-						</div>
 						<div class="col-md-12">
-							<label for="validationCustomUsername" class="form-label">Correo electrónico</label>
+							<label for="validationCustomUsername" class="form-label">Usuario</label>
 							<div class="input-group has-validation">
 								<span class="input-group-text" id="inputGroupPrepend">@</span>
 								<input type="text" class="form-control" id="validationCustomUsername"
@@ -146,33 +118,23 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<label for="exampleInputPassword1" class="form-label">Contraseña</label>
 							<input type="password" class="form-control text-input" id="exampleInputPassword1" required>
 							<div class="invalid-feedback message">
 								Campo obligatorio
 							</div>
 						</div>
-						<div class="col-md-6">
-							<label for="exampleInputPassword1" class="form-label"> Confirmar Contraseña</label>
-							<input type="password" class="form-control text-input" id="exampleInputPassword1" required>
-							<div class="invalid-feedback message">
-								Campo obligatorio
-							</div>
+						<div class="col-12 text-center pt-3">
+							<button class="btn btn-primary" type="submit">Iniciar sesión</button>
 						</div>
 						<div class="col-12">
-							<div class="form-check">
-								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-								<label class="form-check-label" for="invalidCheck">
-									He leído y acepto los <span>Términos y condiciones.</span>
-								</label>
-								<div class="invalid-feedback message">
-									Obligatorio marcar
-								</div>
+							<div class="links pt-lg-2 text-center">
+									<ul class="p-0">
+											<li><a href="">¿Has olvidado la contraseña?</a></li>
+											<li><a href="./registry.html" target="_blank">¿Aún no tienes una cuenta?</a></li>
+									</ul>
 							</div>
-						</div>
-						<div class="col-12 text-center">
-							<button class="btn btn-primary" type="submit">Registrar datos</button>
 						</div>
 					</form>
 				</div>

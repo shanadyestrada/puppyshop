@@ -83,7 +83,7 @@
     font-size: 25px;
     
 }
-.login-desktop button {
+.login-desktop a {
     border-radius: 10px;
     border: 1px solid var(--color2-v1);
     background: var(--color3-v3);
