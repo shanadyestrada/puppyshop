@@ -336,7 +336,7 @@ footer {
 .logo span:hover {
     color: var(--color2-v2);
 }
-.login-desktop button:hover {
+.login-desktop a:hover {
     background-color: var(--color3-v3);
     color: var(--color2-v1);
     font-weight: bold;
