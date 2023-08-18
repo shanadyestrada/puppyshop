@@ -208,7 +208,7 @@ footer {
 }
 
 
-
+/* TABLET */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .logo img {
         height: 40px;
